@@ -1,22 +1,27 @@
 import React, { Component } from 'react';
+import { Route, Switch } from 'react-router-dom';
+
 import './App.css';
 
 class App extends Component {
+  constructor() {
+    super();
+    this.state = {
+
+    };
+  }
+
   render() {
     return (
       <>
-      <div className="intro-header">
-        <h2>
-          Dan Seagren
-        </h2>
-        <h4> Full Stack Engineer </h4>
-      </div>
       <div className="App">
         <header className="App-header">
-          {/* <img className="App-logo" alt="logo" /> */}
-        <p>
-            Edit <code>src/App.js</code> and save application to reload.
-        </p>
+          <div className="intro-header">
+        <h1>
+          Dan Seagren
+        </h1>
+        <h4> Full Stack Engineer </h4>
+      </div>
           <a
             className="App-link"
             href="https://reactjs.org"

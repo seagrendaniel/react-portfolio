@@ -39,7 +39,8 @@
 
 .intro-header {
   font-weight: bold;
-  background-color: yellow;
+  color: red;
+  /* background-color: yellow; */
   height: 50%;
   /* margin-bottom: -100px; */
   font-family: Arial, Helvetica, sans-serif;
