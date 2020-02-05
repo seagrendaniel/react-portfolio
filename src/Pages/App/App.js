@@ -13,7 +13,9 @@ class App extends Component {
 
   /* --- Lifecycle Methods --- */
 
-
+  async componentDidMount() {
+    
+  }
 
   render() {
     return (
@@ -27,7 +29,7 @@ class App extends Component {
               <h4> Full Stack Engineer </h4>
             </div>
           </header>
-          <div className="projects">
+          <div className="projects fade-in">
             <h3 className="project-header"> My Projects </h3>
             <ul className="project-list">
               <li>
@@ -39,8 +41,33 @@ class App extends Component {
                   Da Best Calc
                 </a>
               </li>
-              <li> <a href="/">Da Best Calc </a></li>
-              <li> <a href="/">Da Best Calc </a></li>
+              <li>
+                <a 
+                  href="/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  S & S Farms
+                </a>
+              </li>
+              <li>
+                <a 
+                  href="/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Pick Up Games (P.U.G.S)
+                </a>
+              </li>
+              <li>
+                <a 
+                  href="/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Fantasy Football Stat Tracker
+                </a>
+              </li>
 
               <li>
                 <a
